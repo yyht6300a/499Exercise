@@ -11,8 +11,8 @@ public class MSGtester {
         System.out.print("Before sorting: \n"+list);
 //        Sorter.selectionSort(list);
 //        System.out.print("\nAfter sorted by time \n"+list);
-        Sorter.ContentSort(list);
-        System.out.print("\nAfter sorted by content \n"+list);
+//        Sorter.ContentSort(list);
+//        System.out.print("\nAfter sorted by content \n"+list);
 
 
     }
