@@ -9,10 +9,10 @@ public class MSGtester {
         list.add(new Msg('c',"2020/9/17"));
         list.add(new Msg('b',"2020/9/29"));
         System.out.print("Before sorting: \n"+list);
-        Sorter.selectionSort(list);
-        System.out.print("\nAfter sorted by time \n"+list);
-//        Sorter.ContentSort(list);
-//        System.out.print("\nAfter sorted by content \n"+list);
+//        Sorter.selectionSort(list);
+//        System.out.print("\nAfter sorted by time \n"+list);
+        Sorter.ContentSort(list);
+        System.out.print("\nAfter sorted by content \n"+list);
 
 
     }
